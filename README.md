@@ -42,7 +42,6 @@ By combining **hardware sensors** with **Arduino microcontrollers**, the stick p
 | **ESP8266**        | Wi-Fi communication and GPS data handling |
 | **NEO-6M GPS Module** | Real-time location tracking |
 | **Ultrasonic Sensor** | Detects obstacles within range |
-| **Infrared Sensor**   | Detects objects in low-light conditions |
 | **Water Sensor**      | Detects water or wet surfaces |
 | **Buzzer**            | Provides auditory alerts |
 | **Battery**           | Powers the device |
@@ -62,6 +61,7 @@ By combining **hardware sensors** with **Arduino microcontrollers**, the stick p
 ### 3. **GPS Tracking**
 - NEO-6M GPS module sends location data to ESP8266.
 - Displays latitude, longitude, date, and time on a web server.
+- Google Maps link provided for quick navigation.
 
 ---
 
@@ -78,8 +78,22 @@ By combining **hardware sensors** with **Arduino microcontrollers**, the stick p
 
 - Obstacle detection up to **4 meters**  
 - Water hazard detection  
-- GPS location   
+- GPS location sharing with **Google Maps link** 
 - Lightweight and portable design  
+
+---
+
+## Project Images
+
+<p align="center">
+  <img src="./hardware/schematics/blind_stick_front_view.jpeg" alt="Blind Stick Front View" width="350"><br>
+  <em>Electronic Blind Stick Front View</em>
+</p>
+
+<p align="center">
+  <img src="./hardware/schematics/blind_stick_side_view.jpeg" alt="Blind Stick Side View" width="400"><br>
+  <em>Electronic Blind Stick Side View</em>
+</p>
 
 ---
 
@@ -96,12 +110,12 @@ By combining **hardware sensors** with **Arduino microcontrollers**, the stick p
 
 This project is backed by our published IEEE paper:  
 
-> **Title:** *Smart Blind Stick: An Assistive Device for the Visually Impaired*  
-> **Conference:** IEEE [Name of Conference]  
-> **Year:** [Year of Publication]  
-> **DOI:** [DOI Link]
+> **Title:** *Electronic Blind Stick*  
+> **Conference:** International Journal of Scientific Research in Engineering and Management (IJSREM)  
+> **Year:** 1 January 2025  
+> **DOI:** https://www.doi.org/10.55041/IJSREM40484
 
-[Download the IEEE Paper (PDF)](./IEEE_Paper.pdf)
+[Download the IEEE Paper](https://ijsrem.com/download/electronic-blind-stick/)
 
 ---
 
@@ -117,14 +131,6 @@ This project is backed by our published IEEE paper:
    - `ESP8266WiFi`
 3. Upload the Arduino Nano code (`smart_stick_main.ino`).
 4. Upload ESP8266 GPS code (`gps_tracking.ino`).
-
----
-
-## Project Output
-
-- **Obstacle Detection:** Buzzer & vibration alert when obstacle is within threshold.
-- **Water Detection:** Buzzer alert when water detected.
-- **GPS Location:** Web interface displaying location.
 
 ---
 
