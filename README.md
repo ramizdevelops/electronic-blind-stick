@@ -137,6 +137,6 @@ This project is backed by our published IEEE paper:
 ## License
 
 - **Software:** [MIT License](LICENSE)
-- **Hardware:** [CERN OHL v2.0 Strongly Reciprocal](LICENSE-HARDWARE)
+- **Hardware:** [CERN OHL v2.0 Strongly Reciprocal](./HARDWARE-LICENCE)
 
 ---
