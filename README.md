@@ -83,7 +83,7 @@ By combining **hardware sensors** with **Arduino microcontrollers**, the stick p
 
 ---
 
-## Project Images
+## Project Images & Video
 
 <p align="center">
   <img src="./hardware/schematics/blind_stick_front_view.jpeg" alt="Blind Stick Front View" width="350"><br>
@@ -93,6 +93,13 @@ By combining **hardware sensors** with **Arduino microcontrollers**, the stick p
 <p align="center">
   <img src="./hardware/schematics/blind_stick_side_view.jpeg" alt="Blind Stick Side View" width="400"><br>
   <em>Electronic Blind Stick Side View</em>
+</p>
+
+<p align="left">
+  <em>Click here to watch the video</em><br>
+  <a href="https://youtube.com/shorts/C-1TFMKYI50?si=itNjzB3EHT1RQFeD">
+    ▶ Watch Video
+  </a>
 </p>
 
 ---
