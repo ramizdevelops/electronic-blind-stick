@@ -37,3 +37,12 @@ This code runs on the **Arduino Nano** and handles:
 
 - If an obstacle is ≤ 30cm → **Obstacle Buzzer (D5)** is activated.
 - If water is detected above the threshold → **Water Buzzer (D7)** is activated.
+
+---
+
+## Reference
+See `/hardware/schematics/arduino_nano_pin_diagram.png` for Pin diagram.
+
+<p align="center">
+  <img src="../../hardware/schematics/arduino_nano_pin_diagram.png" alt="Arduino Nano Pin Diagram" width="400">
+</p>
