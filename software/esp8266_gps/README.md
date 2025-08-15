@@ -49,3 +49,12 @@ The web page will display:
 - Latitude & Longitude
 - Date & Time
 - A clickable Google Maps link to the current location
+
+---
+
+## Reference
+See `/hardware/schematics/esp8266_pin_diagram.png` for Pin diagram.
+
+<p align="center">
+  <img src="../../hardware/schematics/esp8266_pin_diagram.png" alt="ESP-8266 Pin Diagram" width="400">
+</p>
